@@ -65,7 +65,7 @@ int* gaussElim(int *mat){
     return res;
 }
 
-int* findKernel(int* rref) { //adapted from ChatGPT stuff (I tried all by myself but was kind of a nightmare)
+int* findKernel(int* rref) { 
     int freeVars[n];  // To keep track of which variables are free
     int pivotVars[n]; // To keep track of which are pivot variables
 
